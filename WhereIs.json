@@ -1,0 +1,103 @@
+{
+  "id": "3a1e070a-6ab4-4d82-b142-67340a79833a",
+  "name": "WhereIs",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "659ce6fb-0f24-49ea-b7e4-f58fb5ef22a2",
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm not sure what to do"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507242472,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8a086f7e-4b19-4e43-a540-807f2d1a30bc",
+      "data": [
+        {
+          "text": "Where's "
+        },
+        {
+          "text": "Jake",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1507155611,
+      "isAuto": false
+    },
+    {
+      "id": "42ffe10a-7e0b-4cca-92d8-ff27397daad4",
+      "data": [
+        {
+          "text": "Where's "
+        },
+        {
+          "text": "Michael",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bbfac047-aedd-44e6-9470-1fa6ba08ec37",
+      "data": [
+        {
+          "text": "Where is "
+        },
+        {
+          "text": "Jake",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
